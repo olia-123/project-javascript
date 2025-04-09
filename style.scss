@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  $primaryfont: "Comic Neue", serif;
+  $textcolour: rgb(203,63,20);
+  $primarycolour: black;
+  $textsize: 16px;
+
+
+
+
+
+
+  nav{ 
+    .up{
+        display: flex;
+    justify-content: center;
+    color: white;
+    height: 57px;
+    background-color: black;
+    padding: 18px;
+    letter-spacing:  2px;
+    font-size:18px;
+    }
+
+.down{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    margin-top: 50px;
+   font-family: $primaryfont;
+    letter-spacing: 0.2em;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.name2{ 
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding: 40px;
+    max-width: 1200px;
+    margin-left: 16px;
+ 
+    
+.info{ 
+   
+    .search{
+       
+        .search1{
+            display: flex;
+            gap: 10px;
+
+            #mySearch {
+                 border: none;
+
+                &:focus {
+                  outline: none;
+                  border: none;
+                }
+
+                &:hover{
+                    text-decoration: underline;
+                }
+              }
+          
+
+            a{
+                text-decoration: none;
+                color: black;
+
+               
+            }
+        }
+
+    }
+}
+
+
+.nav-bar{ 
+     display: flex;
+
+    .nav-list{
+        display: flex;
+        list-style-type: none;
+         gap: 46px;
+    }
+
+    ul{
+        a{
+            text-decoration: none;
+            color: black;
+             font-family: "Comic Neue", serif ;
+             cursor: pointer;
+
+             &:hover{
+                color: $textcolour;
+                transition: 0.2s ease;
+            }
+        }
+    }
+
+}
+ .icons{
+
+    
+    ul{
+        a{
+            text-decoration: none;
+            color: black;
+             font-family: "Comic Neue", serif ;
+        }
+    }
+    
+    .shop{
+   display: flex;
+    gap: 10px;
+    list-style-type: none;
+    }
+ }
+
+}
+
+}
+
+
+  }
+
+  .icon-box{
+    display: flex ;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed;
+    right: 40px;
+    top: 300px;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+}
+
+/*Footeris stili*/
+
+.happy-box{
+    display: flex;
+    flex-direction: column;
+    
+    
+    .title-box{
+        font-family: $primaryfont;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 2px;
+        line-height: 3;
+       
+       
+    }
+
+    .inform-box{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 55px;
+        margin-top:46px;
+
+        .about-box{
+           ul{
+            line-height: 1.4;
+            list-style-type: none;
+            font-size: 15px;
+            font-family: $primaryfont;
+            cursor: pointer;
+           }
+
+        }
+      .logo-box{ 
+        display: flex;
+        gap: 25px;
+        a{ 
+            font-size: 20px;
+             text-decoration: none;
+            color: black;
+      
+       }
+
+      }
+.shipp-box{
+    display: flex;
+flex-direction: column;
+ul{
+    line-height: 1.4;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: $primaryfont;
+    cursor: pointer;
+   }
+}
+    }
+}
+
+
+
+
+.blackbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    .blackbox1{
+        font-size: 28px;
+        font-family: $primaryfont;
+        letter-spacing:1px;
+    }
+
+   
+}
+
+.blackbox3{
+    margin-top: 30px;
+    
+    .email{
+        display: flex;
+    flex-direction: column;
+    width: 441px;
+     
+      input{
+        width: 442px;
+        height: 40px;
+    }
+      
+    }
+
+
+.check{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+
+    input{
+        margin-top: -17px;
+        border: solid black 2px;
+       width: 16px;
+    }
+    
+   
+    .blackbuttonn{
+        border: solid black 1px;
+        width: 162px;
+        height: 38px;
+        color: white;
+        background-color: black;
+        font-family: $primaryfont;
+        cursor: pointer;
+        transition: 0.3s ease;
+        font-size: 16px;
+
+        &:hover {
+          background-color:rgb(203,63,20);
+          color: white;
+        }
+    }
+    
+   
+}
+
+.wix{
+        
+    margin-top: 36px;
+    margin-left: 71px;
+    padding-bottom: 20px;
+
+    a{
+        color: black;
+    }
+}
+ 
+
+
+  }
+  
+  
+
+       
+    
+/*ourstore style iwyeba aq */
+
+.meinphoto{
+    img {
+        width: 100%;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    font-family: $primaryfont;
+    
+
+    h2{
+        margin-top: 40px;
+        margin-bottom: 25px;
+        font-size: 28px;
+        font-family: $primaryfont;
+        letter-spacing: 2px;
+}
+
+.one{
+    line-height: 1.4;
+
+    .plus{
+        padding-left: 20px;
+    }
+    .plus2{
+        padding-left: 20%;
+    }
+   
+}
+
+.two{
+margin-bottom: 50px;
+line-height: 1.4;
+
+    .plus4{
+        padding-left: 41%;
+    }
+}
+
+}
+
+
+
+
+/*gift cardis stilebi*/
+.gift{
+    display: flex;
+    margin-top: 20px;
+.leftgift{
+
+    padding-left: 102px;
+   
+
+    img{
+        width: 70%;
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: scale(1.1);
+          }
+
+    }
+}
+}

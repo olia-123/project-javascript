@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav .up {
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: 57px;
+  background-color: black;
+  padding: 18px;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+nav .down {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav .down .name {
+  display: flex;
+  justify-content: center;
+  font-size: 37px;
+  margin-top: 50px;
+  font-family: "Comic Neue", serif;
+  letter-spacing: 0.2em;
+}
+nav .down .name a {
+  text-decoration: none;
+  color: black;
+}
+nav .down .name2 {
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  padding: 40px;
+  max-width: 1200px;
+  margin-left: 16px;
+}
+nav .down .name2 .info .search .search1 {
+  display: flex;
+  gap: 10px;
+}
+nav .down .name2 .info .search .search1 #mySearch {
+  border: none;
+}
+nav .down .name2 .info .search .search1 #mySearch:focus {
+  outline: none;
+  border: none;
+}
+nav .down .name2 .info .search .search1 #mySearch:hover {
+  text-decoration: underline;
+}
+nav .down .name2 .info .search .search1 a {
+  text-decoration: none;
+  color: black;
+}
+nav .down .name2 .nav-bar {
+  display: flex;
+}
+nav .down .name2 .nav-bar .nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 46px;
+}
+nav .down .name2 .nav-bar ul a {
+  text-decoration: none;
+  color: black;
+  font-family: "Comic Neue", serif;
+  cursor: pointer;
+}
+nav .down .name2 .nav-bar ul a:hover {
+  color: rgb(203, 63, 20);
+  transition: 0.2s ease;
+}
+nav .down .name2 .icons ul a {
+  text-decoration: none;
+  color: black;
+  font-family: "Comic Neue", serif;
+}
+nav .down .name2 .icons .shop {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: fixed;
+  right: 40px;
+  top: 300px;
+}
+.icon-box a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+/*Footeris stili*/
+.happy-box {
+  display: flex;
+  flex-direction: column;
+}
+.happy-box .title-box {
+  font-family: "Comic Neue", serif;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 3;
+}
+.happy-box .inform-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 55px;
+  margin-top: 46px;
+}
+.happy-box .inform-box .about-box ul {
+  line-height: 1.4;
+  list-style-type: none;
+  font-size: 15px;
+  font-family: "Comic Neue", serif;
+  cursor: pointer;
+}
+.happy-box .inform-box .logo-box {
+  display: flex;
+  gap: 25px;
+}
+.happy-box .inform-box .logo-box a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.happy-box .inform-box .shipp-box {
+  display: flex;
+  flex-direction: column;
+}
+.happy-box .inform-box .shipp-box ul {
+  line-height: 1.4;
+  list-style-type: none;
+  font-size: 15px;
+  font-family: "Comic Neue", serif;
+  cursor: pointer;
+}
+
+.blackbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blackbox .blackbox1 {
+  font-size: 28px;
+  font-family: "Comic Neue", serif;
+  letter-spacing: 1px;
+}
+
+.blackbox3 {
+  margin-top: 30px;
+}
+.blackbox3 .email {
+  display: flex;
+  flex-direction: column;
+  width: 441px;
+}
+.blackbox3 .email input {
+  width: 442px;
+  height: 40px;
+}
+.blackbox3 .check {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+.blackbox3 .check input {
+  margin-top: -17px;
+  border: solid black 2px;
+  width: 16px;
+}
+.blackbox3 .check .blackbuttonn {
+  border: solid black 1px;
+  width: 162px;
+  height: 38px;
+  color: white;
+  background-color: black;
+  font-family: "Comic Neue", serif;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 16px;
+}
+.blackbox3 .check .blackbuttonn:hover {
+  background-color: rgb(203, 63, 20);
+  color: white;
+}
+.blackbox3 .wix {
+  margin-top: 36px;
+  margin-left: 71px;
+  padding-bottom: 20px;
+}
+.blackbox3 .wix a {
+  color: black;
+}
+
+/*ourstore style iwyeba aq */
+.meinphoto img {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  font-family: "Comic Neue", serif;
+}
+section h2 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-family: "Comic Neue", serif;
+  letter-spacing: 2px;
+}
+section .one {
+  line-height: 1.4;
+}
+section .one .plus {
+  padding-left: 20px;
+}
+section .one .plus2 {
+  padding-left: 20%;
+}
+section .two {
+  margin-bottom: 50px;
+  line-height: 1.4;
+}
+section .two .plus4 {
+  padding-left: 41%;
+}
+
+/*gift cardis stilebi*/
+.gift {
+  display: flex;
+  margin-top: 20px;
+}
+.gift .leftgift {
+  padding-left: 102px;
+}
+.gift .leftgift img {
+  width: 70%;
+  transition: transform 0.2s ease;
+}
+.gift .leftgift img:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
